@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@700&display=swap');
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins";
+}
+
+
+/* Container Section */
+
+#custom-container {
+    padding: 2% 12%;
+}
+
+
+/* Navbar Section */
+
+#custom-navbar {
+    padding: 2rem 0;
+}
+
+#custom-link {
+    color: rgb(12, 1, 24);
+}
+
+#custom-brand {
+    color: rgb(255, 149, 167);
+    font-family: "Pacifico";
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 12px;
+    font-size: 1.3rem;
+    font-weight: 350;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+
+/* Heading Section */
+
+.intro-heading,
+.price-heading,
+.price-hook,
+.price-info,
+#pricing {
+    line-height: 1.5;
+    color: rgb(85, 84, 85);
+}
+
+.btn-custom {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* Feature Section */
+
+#features,
+#testimonials {
+    color: #fff;
+    background-color: rgb(90, 59, 141);
+    padding: 3% 4%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 4%;
+}
+
+.feature-icon {
+    color: rgb(255, 149, 167);
+    margin-bottom: 1.5rem;
+}
+
+
+/* Pricing Section */
+
+.price-heading,
+.price-hook,
+.pricing-column {
+    text-align: center;
+}
+
+.pricing {
+    position: relative;
+}
+
+.price-heading {
+    padding: 5% 0 0 0;
+}
+
+.price-hook {
+    margin-bottom: 80px;
+}
+
+.pricing-column {
+    padding: 2% 0 10% 0;
+}
+
+
+/* Carousel Section */
+
+#testimonials {
+    color: #fff;
+    padding: 3% 3%;
+}
+
+.testimonial-img {
+    border-radius: 50%;
+    height: 90px;
+    margin: 1rem;
+}
+
+.cta {
+    padding: 2% 25%;
+    line-height: 1.5;
+}
+
+
+/* Footer Section */
+
+#footer {
+    padding: 5% 3%;
+    text-align: center;
+    background-color: rgb(90, 59, 141);
+    color: #fff;
+}
+
+.social-icon {
+    margin: 20px 5px;
+    color: rgb(255, 149, 167);
+}
